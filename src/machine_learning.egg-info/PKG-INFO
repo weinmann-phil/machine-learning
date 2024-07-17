@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: machine-learning
+Version: 0.0.1
+Summary: a learning project on machine learning
+Author-email: Philip Weinmann <Philip.Weinmann@protonmail.com>
+Maintainer-email: Philip Weinmann <Philip.Weinmann@protonmail.com>
+Keywords: machine-learning
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Machine Learning
+
+## References
+
+* [Github -- pypa -- sampleproject pyproject.toml](https://github.com/pypa/sampleproject/blob/main/pyproject.toml)
+* [PyPa SetupTools -- User Guide pyproject config](https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html)
