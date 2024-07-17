@@ -7,9 +7,13 @@
 ./lib64/*
 **/include
 ./include
+**/share
+./share/*
 
 **/*.cfg
 *.cfg
+**/*.1
+*.1
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
