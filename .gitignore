@@ -1,0 +1,8 @@
+# Binary and support folders and files
+**/bin
+./bin
+./lib
+./lib64
+
+**/*.cfg
+*.cfg

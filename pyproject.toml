@@ -1,0 +1,7 @@
+[project]
+name = "machine-learning"
+version = "0.0.1"
+description = "a learning project on machine learning"
+authors = ["Philip Weinmann"]
+
+[project.dependencies]
