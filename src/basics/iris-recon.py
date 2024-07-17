@@ -15,10 +15,15 @@ def create_knn_model(
     """Classify data with k next neighbour algorithm.
 
     Args:
-        None.
+        training_data: A 2-ary tuple containing vectors representing the 
+            parametrized data and its targeted outcome, respectively.
+        neighbors: An integer representing the amount of neighbors each 
+            datapoint may have to consider categorization.
+        sample: A list of vectors representing at least one data point with all
+            parameters.
 
     Returns:
-        prediction: An ndarray containing.
+        prediction: A ndarray representing the category of each input.
 
     Raises:
         None.
