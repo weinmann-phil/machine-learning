@@ -45,15 +45,16 @@ int main()
   
     printf("%f\n", cost(w, b));
     for (size_t i = 0; i < 500; ++i) {
-        float dw = (cost(w + eps, b) - cost(w, b))/eps;
-        float db = (cost(w, b + eps) - cost(w, b))/eps;
+        float c = cost(w, b);
+        float dw = (cost(w + eps, b) - c)/eps;
+        float db = (cost(w, b + eps) - c)/eps;
         w -= rate*dw;
         b -= rate*db;
         printf("cost = %f, w = %f, b = %f\n", cost(w, b), w, b);    
     }
 
     printf("\n-------------------------------------\n");
-    printf("%f\n", w);
+    printf("w = %f, b = %f\n", w, b);
 
         
     return 0;
